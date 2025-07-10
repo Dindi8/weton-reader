@@ -18,7 +18,7 @@ body, html {
 #app-container {
   width: 100vmin;
   height: 100vmin;
-  url('temple-bg.png')
+  background-image: url('temple-bg.png');
   background-size: cover;
   background-position: center;
   border: 4px solid #000;
