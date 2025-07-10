@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weton Reader</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app-container">
+      <!-- Home Screen -->
+      <div id="home-screen" class="screen active">
+        <h1 class="title">WETON READER</h1>
+        <p class="tagline">it's not horoscope, it's a heritage</p>
+        <button id="startBtn">Start</button>
+      </div>
+
+      <!-- Date Input Screen -->
+      <div id="input-screen" class="screen hidden">
+        <input type="date" id="birthDate" />
+        <button id="revealBtn">Reveal My Weton</button>
+      </div>
+
+      <!-- Result Screen -->
+      <div id="result-screen" class="screen hidden">
+        <div id="wetonResult"></div>
+        <button id="backBtn">Back</button>
+      </div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
